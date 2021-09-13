@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.contact {
+    font-size: 20px;
+    background-color: peru;
+    border-radius: 2px;
+    padding: 7px;
+    background-image: linear-gradient(#08AEEA,#97D9E1) ;
+}
+
+img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    border: 6px solid #accbd6;
+}
+
+#img {
+    box-shadow: 0.5px -5px 10px 2px #accbd6;
+    margin: auto;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    height: 550px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+section {
+    box-shadow: -1px 1px 15px 8px rgb(87, 92, 94);
+    margin: 0 auto;
+    max-width: 500px;
+    height: 600px;
+    margin-top: 40px;
+}
+
+.name-title {
+    margin-top: 5px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    box-shadow: -0.5px 0.5px 5px rgb(134, 92, 76);
+    background-image: linear-gradient(#08AEEA,#97D9E1) ;
+}
+
+
+
+h2 {
+    margin-top: 25px;
+}
+
+.para {
+    margin-top: -15px;
+}
+h4 {
+    margin-top: -15px;
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.linkedin {
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.email {
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.twitter {
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.resume {
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#container {
+    max-width: 900px;
+    padding: 10px;
+    box-shadow: -1px 3px 3px 3px peru;
+    border: 1px solid peru;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#links,
+a:hover {
+    background-color: #eee;
+}
+
+#links,
+:focus {
+    background-color: gray;
+}
+
+.first-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    position: relative;
+    -webkit-transition: all 800ms ease-in;
+    left: -1000px;
+}
+
+.info.show {
+    position: relative;
+    left: 8px;
+}
+
+
+
+.hide-show {
+    background-color: #ff7979;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+    position: fixed;
+    top: -100px;
+    left: -110px;
+}
+
+.hide-show.nav {
+    transform: rotate(-80deg);
+}
+
+button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    font-size: 26px;
+    border: 0;
+    color: #fff;
+}
+
+#open {
+
+    left: 60%;
+    bottom: -0.1%;
+}
+
+#close {
+    top: 70%;
+    transform: rotate(80deg);
+    transform-origin: top left;
+}
+
+.fab.fa-linkedin{
+   
+ padding: 5px;
+
+    
+}
+
+.fas.fa-home{
+    margin-left: -5px;
+    padding: 5px;
+}
+.fab.fa-twitter{
+    margin-right: 5px;
+    padding: 5px;
+}
+.fas.fa-envelope-square{
+    margin-right: 5px;
+    padding: 5px;
+}
+
+i.far.fa-file{
+    margin-right: 5px;
+    padding: 5px;
+    width:20px;
+    height: 25px;
+}
+
+.fas.fa-phone-volume{
+    padding: 5px;
+}
