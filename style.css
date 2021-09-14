@@ -35,7 +35,7 @@ h3 {
     background-color: peru;
     border-radius: 2px;
     padding: 7px;
-    background-image: linear-gradient(#08AEEA,#97D9E1) ;
+    background-image: linear-gradient(#08AEEA, #97D9E1);
 }
 
 img {
@@ -71,7 +71,7 @@ section {
     padding: 2px 8px;
     border-radius: 5px;
     box-shadow: -0.5px 0.5px 5px rgb(134, 92, 76);
-    background-image: linear-gradient(#08AEEA,#97D9E1) ;
+    background-image: linear-gradient(#08AEEA, #97D9E1);
 }
 
 
@@ -83,6 +83,7 @@ h2 {
 .para {
     margin-top: -15px;
 }
+
 h4 {
     margin-top: -15px;
 }
@@ -91,7 +92,7 @@ h4 {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
-    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    background-image: linear-gradient(#08AEEA, #97D9E1);
     border-radius: 2px;
     padding: 5px;
 }
@@ -100,7 +101,7 @@ h4 {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
-    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    background-image: linear-gradient(#08AEEA, #97D9E1);
     border-radius: 2px;
     padding: 5px;
 }
@@ -109,7 +110,7 @@ h4 {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
-    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    background-image: linear-gradient(#08AEEA, #97D9E1);
     border-radius: 2px;
     padding: 5px;
 }
@@ -118,7 +119,7 @@ h4 {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
-    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    background-image: linear-gradient(#08AEEA, #97D9E1);
     border-radius: 2px;
     padding: 5px;
 }
@@ -127,7 +128,7 @@ h4 {
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 10px;
-    background-image: linear-gradient(#08AEEA,#97D9E1 );
+    background-image: linear-gradient(#08AEEA, #97D9E1);
     border-radius: 2px;
     padding: 5px;
 }
@@ -208,33 +209,46 @@ button {
     transform-origin: top left;
 }
 
-.fab.fa-linkedin{
-   
- padding: 5px;
+.fab.fa-linkedin {
 
-    
+    padding: 5px;
+
+
 }
 
-.fas.fa-home{
+.fas.fa-home {
     margin-left: -5px;
     padding: 5px;
 }
-.fab.fa-twitter{
-    margin-right: 5px;
-    padding: 5px;
-}
-.fas.fa-envelope-square{
+
+.fab.fa-twitter {
     margin-right: 5px;
     padding: 5px;
 }
 
-i.far.fa-file{
+.fas.fa-envelope-square {
     margin-right: 5px;
     padding: 5px;
-    width:20px;
+}
+
+i.far.fa-file {
+    margin-right: 5px;
+    padding: 5px;
+    width: 20px;
     height: 25px;
 }
 
-.fas.fa-phone-volume{
+.fas.fa-phone-volume {
     padding: 5px;
+}
+
+.trivia {
+    text-decoration: none;
+
+}
+
+a.trivia {
+    font-size: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right, #F25022, #7FBA00, #00A4EF, #FFB900);
 }
